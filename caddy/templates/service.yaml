@@ -1,0 +1,17 @@
+{{- if eq (toString .Values.management.enabled) "true" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: caddy
+  namespace: {{.Release.Name}}
+  labels:
+    app: caddy
+spec:
+  selector:
+    app: caddy
+  ports:
+    - name: management
+      port: {{ .Values.management.port }}
+      targetPort: 4201
+  type: LoadBalancer
+{{- end }}
