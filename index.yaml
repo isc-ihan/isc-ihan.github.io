@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  caddy-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-17T15:16:20.966574853-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 2117b8e1cb1371c16377b1cbb44f086d77c37af72e3d77d72e15b67bf86a53df
+    name: caddy-chart
+    type: application
+    urls:
+    - caddy-chart-0.1.0.tgz
+    version: 0.1.0
+  store-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-17T15:16:20.967170392-04:00"
+    description: A Helm chart for Kubernetes
+    digest: b52ceb65c4e7b15b555c879c237eb19c1ff6a86c8bb506e9cd8a480b70315c7c
+    name: store-chart
+    type: application
+    urls:
+    - store-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-17T15:16:20.965723109-04:00"
